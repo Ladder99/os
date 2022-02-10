@@ -9,10 +9,10 @@ setx LADDER99 %USERPROFILE%\Desktop\ladder99
 setx SERVICE "Ladder99 Adapter"
 
 :: binaries
-setx NODE %USERPROFILE%\bin\node-v16.13.2-win-x64\node.exe
-setx AGENT %USERPROFILE%\bin\cppagent-1.8.0.2-win64\bin\agent.exe
-setx NSSM %USERPROFILE%\bin\nssm-2.24\win64\nssm.exe
-setx GIT %USERPROFILE%\bin\PortableGit\cmd\git.exe
+setx NODE %LADDER99%\bin\node-v16.13.2-win-x64\node.exe
+setx AGENT %LADDER99%\bin\cppagent-1.8.0.2-win64\bin\agent.exe
+setx NSSM %LADDER99%\bin\nssm-2.24\win64\nssm.exe
+setx GIT %LADDER99%\bin\PortableGit\cmd\git.exe
 
 :: adapter uses these to know where to read data from.
 :: /m writes to the system (machine) environment variables.
