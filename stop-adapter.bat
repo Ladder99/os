@@ -1,11 +1,7 @@
 :: stop ladder99 adapter service
 :: must run this file as administrator
 
-cd %USERPROFILE%\Desktop\ladder99
+%NSSM% stop "%SERVICE%"
+%NSSM% remove "%SERVICE%" confirm
 
-call init.bat
-
-nssm stop %SERVICE%
-nssm remove %SERVICE% confirm
-
-pause
+@pause

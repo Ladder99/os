@@ -1,9 +1,11 @@
 :: update git repos from github
 
-call init.bat
+::call init.bat
 
-git pull
-cd ladder99-ce && git pull && git checkout develop && cd ..
-cd client-lockheed && git pull && cd ..
+cd %USERPROFILE%\Desktop\ladder99
 
-pause
+%GIT% pull
+cd ladder99-ce && %GIT% pull && %GIT% checkout develop && cd ..
+cd client-lockheed && %GIT% pull && cd ..
+
+@pause

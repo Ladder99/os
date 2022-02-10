@@ -1,5 +1,3 @@
-:: run mtconnect agent
-
-::call init.bat
+:: run mtconnect agent in console
 
 %AGENT% run %SETUP%\volumes\agent\agent.cfg
