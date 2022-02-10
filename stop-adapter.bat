@@ -5,7 +5,7 @@ cd %USERPROFILE%\Desktop\ladder99
 
 call init.bat
 
-nssm stop "Ladder99 Adapter"
-nssm remove "Ladder99 Adapter" confirm
+nssm stop %SERVICE%
+nssm remove %SERVICE% confirm
 
 pause

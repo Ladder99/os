@@ -2,3 +2,5 @@ client-*
 ladder99-ce
 agent.log
 desktop.ini
+/bin
+*.log
