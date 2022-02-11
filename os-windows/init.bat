@@ -1,13 +1,19 @@
 :: initialize environment variables
 :: must run as administrator
 
+:: note: when run this file as admin, 
+:: CD evaluates to C:\Windows\System32.
+:: USERPROFILE evaluates to C:\Users\ODYSSEY (at least for my winbox).
+
 :: client config folder
 set SETUP=client-lockheed
 
+:: ladder99 main folder
+set LADDER99=%SYSTEMDRIVE%\ladder99
+
+:: now write those to registry
 setx SETUP %SETUP%
-::setx LADDER99 %USERPROFILE%\Desktop\ladder99
-::setx LADDER99 %SYSTEMDRIVE%\ladder99
-setx LADDER99 %CD%\..
+setx LADDER99 %LADDER99%
 
 :: service name
 setx SERVICE "Ladder99 Adapter"
