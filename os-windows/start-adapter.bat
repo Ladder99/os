@@ -5,8 +5,8 @@
 :: for the application in C:\Windows.
 
 %NSSM% install "%SERVICE%" %NODE% %LADDER99%\ladder99-ce\services\adapter\src\adapter.js
-%NSSM% set "%SERVICE%" AppStdout %LADDER99%\adapter.log
-%NSSM% set "%SERVICE%" AppStderr %LADDER99%\adapter-error.log
+%NSSM% set "%SERVICE%" AppStdout %LADDER99%\os-windows\adapter.log
+%NSSM% set "%SERVICE%" AppStderr %LADDER99%\os-windows\adapter-error.log
 %NSSM% start "%SERVICE%"
 
 @pause
