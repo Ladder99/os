@@ -4,3 +4,4 @@ agent.log
 desktop.ini
 /bin
 *.log
+/logs

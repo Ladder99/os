@@ -2,8 +2,11 @@
 :: must run as administrator
 
 :: client config folder
-setx SETUP client-lockheed
-setx LADDER99 %USERPROFILE%\Desktop\ladder99
+set SETUP=client-lockheed
+
+setx SETUP %SETUP%
+::setx LADDER99 %USERPROFILE%\Desktop\ladder99
+setx LADDER99 %SYSTEMDRIVE%\ladder99
 
 :: service name
 setx SERVICE "Ladder99 Adapter"
