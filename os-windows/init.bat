@@ -36,7 +36,6 @@ setx NSSM %LADDER99%\bin\nssm-2.24\win64\nssm.exe
 setx GIT %LADDER99%\bin\PortableGit\cmd\git.exe
 
 @echo.
-@echo Make sure you run this as administrator, and that the last
-@echo values got written correctly.
+@echo Make sure you ran this as administrator.
 @echo.
 @pause
