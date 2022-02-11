@@ -1,3 +1,3 @@
 :: run mtconnect agent in console
 
-%AGENT% run %SETUP%\volumes\agent\agent.cfg
+%AGENT% run %LADDER99%\%SETUP%\volumes\agent\agent.cfg

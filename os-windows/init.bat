@@ -2,16 +2,14 @@
 :: must run as administrator
 
 :: note: when run this file as admin, 
-:: CD evaluates to C:\Windows\System32.
-:: USERPROFILE evaluates to C:\Users\ODYSSEY (at least for my winbox).
+::   CD evaluates to C:\Windows\System32.
+::   USERPROFILE evaluates to C:\Users\ODYSSEY (at least for my winbox).
 
-:: client config folder
+:: set variables local to this file
 set SETUP=client-lockheed
-
-:: ladder99 main folder
 set LADDER99=%SYSTEMDRIVE%\ladder99
 
-:: now write those to registry
+:: now write them to registry also
 setx SETUP %SETUP%
 setx LADDER99 %LADDER99%
 
