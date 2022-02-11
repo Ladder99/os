@@ -1,8 +1,8 @@
-# Client setup for Lockheed
+# Ladder99 Windows setup
 
 ## Setup
 
-Right click on init.bat and select Run as Administrator - say OK to the following dialog. This will add various environment variables to the registry. 
+Right click on `init.bat` and select `Run as Administrator` - say OK to the following dialog. This will add various environment variables to the registry. 
 
 ## Running Adapter
 
