@@ -6,7 +6,8 @@ set SETUP=client-lockheed
 
 setx SETUP %SETUP%
 ::setx LADDER99 %USERPROFILE%\Desktop\ladder99
-setx LADDER99 %SYSTEMDRIVE%\ladder99
+::setx LADDER99 %SYSTEMDRIVE%\ladder99
+setx LADDER99 %CD%\..
 
 :: service name
 setx SERVICE "Ladder99 Adapter"
