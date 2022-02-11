@@ -25,11 +25,21 @@ setx GIT %LADDER99%\bin\PortableGit\cmd\git.exe
 :: adapter uses these to know where to read data from.
 :: /m writes to the system (machine) environment variables.
 :: that way, adapter window service can read them.
-setx /m L99_SETUP_FOLDER %LADDER99%\%SETUP%
-setx /m L99_MODULES_FOLDER %LADDER99%\ladder99-ce\modules
+::setx /m L99_SETUP_FOLDER %LADDER99%\%SETUP%
+::setx /m L99_MODULES_FOLDER %LADDER99%\ladder99-ce\modules
+:: yeah this is crazy
+:: set vars local to this file
+set L99_SETUP_FOLDER=%LADDER99%\%SETUP%
+set L99_MODULES_FOLDER=%LADDER99%\ladder99-ce\modules
+:: set normal user registry
+setx L99_SETUP_FOLDER %L99_SETUP_FOLDER%
+setx L99_MODULES_FOLDER %L99_MODULES_FOLDER%
+:: set machine-wide registry
+setx /m L99_SETUP_FOLDER %L99_SETUP_FOLDER%
+setx /m L99_MODULES_FOLDER %L99_MODULES_FOLDER%
 
 @echo.
-@echo Make sure you run this as administrator, and that the last two
+@echo Make sure you run this as administrator, and that the last
 @echo values got written correctly.
 @echo.
 @pause
