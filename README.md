@@ -18,7 +18,7 @@ To stop it, do same for stop-adapter.bat.
 
 ## Checking Adapter
 
-To check the Adapter output, see the files in the logs folder - service.log and service-errors.log. 
+To check the Adapter output, see adapter.log and adapter-errors.log. 
 
 ## Checking Agent
 
@@ -26,3 +26,4 @@ The Agent has output at localhost:5000 - there are /probe, /current, and /sample
 
 You can either visit that in the browser, or say `curl localhost:5000` to check the output. 
 
+You can also check agent.log for log output.
