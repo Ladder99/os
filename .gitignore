@@ -1,7 +1,8 @@
-client-*
-ladder99-ce
-agent.log
-desktop.ini
+/_old
 /bin
+/client-*
+/ladder99-ce
+/ladder99-ee
+desktop.ini
 *.log
-/logs
+.DS_Store
