@@ -1,6 +1,6 @@
 /_old
 /.vscode
-/bin
+**/bin
 /client-*
 /ladder99-ce
 /ladder99-ee
