@@ -30,10 +30,10 @@ setx /m L99_MODULES_FOLDER %L99_MODULES_FOLDER%
 setx SERVICE "Ladder99 Adapter"
 
 :: binaries
-setx NODE %LADDER99%\bin\node-v16.13.2-win-x64\node.exe
-setx AGENT %LADDER99%\bin\cppagent-1.8.0.2-win64\bin\agent.exe
-setx NSSM %LADDER99%\bin\nssm-2.24\win64\nssm.exe
-setx GIT %LADDER99%\bin\PortableGit\cmd\git.exe
+setx NODE %LADDER99%\os-windows\bin\node-v16.13.2-win-x64\node.exe
+setx AGENT %LADDER99%\os-windows\bin\cppagent-1.8.0.2-win64\bin\agent.exe
+setx NSSM %LADDER99%\os-windows\bin\nssm-2.24\win64\nssm.exe
+setx GIT %LADDER99%\os-windows\bin\PortableGit\cmd\git.exe
 
 @echo.
 @echo Make sure you ran this as administrator.
