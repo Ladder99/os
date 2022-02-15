@@ -1,4 +1,4 @@
 # Ladder99
 
-This repository contains code for running the Ladder99 pipeline and client setups. 
+This repository contains code for running the Ladder99 pipeline and client setups directly, rather than through Docker. 
 
