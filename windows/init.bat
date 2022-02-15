@@ -7,8 +7,10 @@
 
 :: adapter uses L99* vars to know where to read data from.
 
-:: set variables local to this file
+:: set this elsewhere - setx?
 set SETUP=client-lockheed
+
+:: set variables local to this file
 set LADDER99=%SYSTEMDRIVE%\ladder99
 set L99_SETUP_FOLDER=%LADDER99%\%SETUP%
 set L99_MODULES_FOLDER=%LADDER99%\ladder99-ce\modules
