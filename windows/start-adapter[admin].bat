@@ -10,8 +10,8 @@
 :: settings
 :: set login to Network Service, as it mostly just has network permissions
 %NSSM% set "%SERVICE%" ObjectName "Network Service" ""
-%NSSM% set "%SERVICE%" AppStdout %LADDER99%\os-windows\adapter.log
-%NSSM% set "%SERVICE%" AppStderr %LADDER99%\os-windows\adapter-error.log
+%NSSM% set "%SERVICE%" AppStdout %LADDER99%\os\windows\adapter.log
+%NSSM% set "%SERVICE%" AppStderr %LADDER99%\os\windows\adapter-error.log
 
 :: run the service
 %NSSM% start "%SERVICE%"
